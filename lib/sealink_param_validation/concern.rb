@@ -23,7 +23,7 @@ module SealinkParamValidation
     def ensure_schema!
       @validation_result = schema_for_action.call(params.to_unsafe_h)
       return if @validation_result.success?
-      error = SealinkParamValidation::ValidationHelper.generate_humanized_error_message(@validation_result)
+      error = SealinkParamValidation::Helper.generate_humanized_error_message(@validation_result)
       fail SealinkParamValidation::InvalidInputError, error
     end
 
@@ -32,7 +32,7 @@ module SealinkParamValidation
       return unless schema.present?
       @validation_result = schema.call(params.to_unsafe_h)
       return if @validation_result.success?
-      render json: {error: SealinkParamValidation::ValidationHelper.generate_error_message(@validation_result)}, status: 422
+      render json: {error: SealinkParamValidation::Helper.generate_error_message(@validation_result)}, status: 422
     end
 
     def action
