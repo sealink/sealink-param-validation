@@ -1,0 +1,11 @@
+source 'https://rubygems.org'
+gemspec path: '../'
+
+group :development, :test do
+  gem 'rake'
+  gem 'rspec'
+  gem 'rspec-rails'
+  gem 'simplecov'
+  gem 'simplecov-rcov'
+  gem 'rails', '~> 5.0.0'
+end
