@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 module SealinkParamValidation
-  class ValidationHelper
+  class Helper
     def self.generate_error_message(result)
       result.errors(full: true).to_h.values.map { |v|
         v.is_a?(Hash) ? v.values : v

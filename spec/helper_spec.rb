@@ -2,10 +2,10 @@
 
 require 'spec_helper'
 
-RSpec.describe SealinkParamValidation::ValidationHelper do
+RSpec.describe SealinkParamValidation::Helper do
   context '.generate_error_message' do
     let(:errors) { schema.call(params) }
-    subject { SealinkParamValidation::ValidationHelper.generate_error_message(errors) }
+    subject { SealinkParamValidation::Helper.generate_error_message(errors) }
 
     context 'flat schema' do
       let(:schema) {
@@ -44,7 +44,7 @@ RSpec.describe SealinkParamValidation::ValidationHelper do
 
   context '.generate_humanized_error_message' do
     let(:errors) { schema.call(params) }
-    subject { SealinkParamValidation::ValidationHelper.generate_humanized_error_message(errors) }
+    subject { SealinkParamValidation::Helper.generate_humanized_error_message(errors) }
 
     context 'flat schema' do
       let(:schema) {
