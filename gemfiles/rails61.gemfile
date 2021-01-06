@@ -7,5 +7,5 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'simplecov'
   gem 'simplecov-rcov'
-  gem 'rails', '~> 5.0'
+  gem 'rails', '~> 6.1'
 end
