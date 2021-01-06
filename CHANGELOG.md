@@ -1,6 +1,6 @@
 # Sealink Param Validation
 
-## Unreleased
+## 0.2.0
 
 - [TT-8621] Update to build with github actions / ruby 3.0 / rails 6.1
 
