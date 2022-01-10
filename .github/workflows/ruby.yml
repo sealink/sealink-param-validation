@@ -18,6 +18,8 @@ jobs:
           bundler-cache: true
       - run: bundle exec rake
       - name: Coveralls
+        env:
+          NODE_COVERALLS_DEBUG: 1
         uses: coverallsapp/github-action@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
