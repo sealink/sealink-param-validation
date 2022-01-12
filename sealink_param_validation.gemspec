@@ -18,7 +18,7 @@ Gem::Specification.new do |spec|
   spec.files         = `git ls-files`.split($/)
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
-  spec.required_ruby_version = '>= 2.6.0'
+  spec.required_ruby_version = '>= 2.7.0'
 
   spec.add_dependency 'rails'
   spec.add_dependency 'dry-schema', '>= 1.0.0'
@@ -28,7 +28,4 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rspec'
   spec.add_development_dependency 'rspec-rails'
   spec.add_development_dependency 'coverage-kit'
-  spec.add_development_dependency 'simplecov-rcov'
-  spec.add_development_dependency 'coveralls'
-  spec.add_development_dependency 'travis'
 end

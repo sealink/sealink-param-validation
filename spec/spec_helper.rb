@@ -5,6 +5,8 @@ require 'rails'
 require 'action_controller/railtie'
 require 'dry-schema'
 require 'rspec/rails'
+require 'support/coverage_loader'
+
 require 'sealink-param-validation'
 
 module SealinkParamValidation

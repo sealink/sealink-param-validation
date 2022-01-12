@@ -2,6 +2,7 @@
 
 [![Gem Version](https://badge.fury.io/rb/sealink-param-validation.svg)](http://badge.fury.io/rb/sealink-param-validation)
 [![Build Status](https://github.com/sealink/sealink-param-validation/workflows/Build%20and%20Test/badge.svg?branch=master)](https://github.com/sealink/sealink-param-validation/actions)
+[![Coverage Status](https://coveralls.io/repos/sealink/sealink-param-validation/badge.png)](https://coveralls.io/r/sealink/sealink-param-validation)
 
 This is our gem for validation our params with schemas.
 
