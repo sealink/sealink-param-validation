@@ -1,6 +1,6 @@
 # Sealink Param Validation
 
-## Unreleased
+## 0.3.0
 
 - [PLAT-183] Implement coverage check / ruby 3.1 / rails 7.0
 
