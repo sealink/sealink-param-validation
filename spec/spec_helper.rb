@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 ENV['RAILS_ENV'] ||= 'test'
-require 'rails'
+require 'logger'
 require 'action_controller/railtie'
 require 'dry-schema'
 require 'rspec/rails'
