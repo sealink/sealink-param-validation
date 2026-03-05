@@ -2,6 +2,8 @@
 
 ## Unreleased
 
+## 0.4.1
+
 - [TBAU-1724] Remove unused Rails dependencies
 
 ## 0.4.0
