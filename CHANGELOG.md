@@ -1,5 +1,9 @@
 # Sealink Param Validation
 
+## Unreleased
+
+- [TBAU-1724] Remove unused Rails dependencies
+
 ## 0.4.0
 
 - [PLAT-1175] Update to Ruby 3.2
